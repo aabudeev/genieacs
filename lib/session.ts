@@ -1680,7 +1680,7 @@ function generateGetRpcRequest(
 
       return {
         name: "GetParameterNames",
-        parameterPath: path.length ? path.toString() + "." : "",
+        parameterPath: path.length ? path.toString() + "." : "InternetGatewayDevice.",
         nextLevel: nextLevel,
       };
     }
